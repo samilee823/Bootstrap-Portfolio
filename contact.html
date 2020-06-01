@@ -10,54 +10,51 @@
 
 <body>
 <!-- nav bar -->
-<ul class="nav flex-wrap container">
-    <div class="row">
-        <li class="nav-item align-items-center col-md-6" id="header">
-            <a class="navbar text-white text-center">Samantha Lee</a>
-        </li>
-        <div class="d-flex align-items-center col-md-3">
-            <li class="nav-item">
-                <a class="nav-item nav-link alert-light border-right" href="index.html">About</a>
+    <ul class="nav flex-wrap container">
+        <div class="row">
+            <li class="nav-item align-items-center col-md-6" id="header">
+                <a class="navbar text-white text-center">Samantha Lee</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-item nav-link alert-light" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-item nav-link alert-light border-left" href="contact.html">Contact</a>
-            </li>
-       </div>
-    </div>
-  </ul>
-<!-- content  -->
-<section class=background>
-
-    <div class="container">
-        <h1 class="topic">Contact</h1>
-        <hr> <br>
-<!-- form  -->
-        <section id="contact-form">
-            <form action="/action_page.php" method="get" id="nameform">
-                <label for="name">Name</label>
-                <br>
-                <input type="text" id="name" name="name" placeholder="John Smith"><br><br>
-                <label for="email">Email</label>
-                <br>
-                <input type="text" id="email" name="email" placeholder="example@gmail.com">
-            </form>
-            <br>
-            <label for="message">Message</label>
-            <br>
-            <textarea id="message" rows="4" cols="50" form="nameform">
-                </textarea><br><br>
-                <button type="submit" class="btn btn-info">Submit</button>
-            </section>
-    </div>
-</section> 
-<!-- footer  -->
-        <footer class="footer mt-auto py-3">
-            <div class="container">
-              <span class="text-center">Copyright &#169</span>
+            <div class="d-flex align-items-center col-md-3">
+                <li class="nav-item">
+                    <a class="nav-item nav-link alert-light border-right" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link alert-light" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link alert-light border-left" href="contact.html">Contact</a>
+                </li>
             </div>
-          </footer>
+        </div>
+    </ul>
+<!-- content  -->
+    <div class="p-3 mb-2 bg-light">
+        <div class="container p-3 mb-2 bg-white">
+            <h1 class="topic">Contact</h1>
+            <hr>
+    <!-- form  -->
+            <section id="contact-form">
+                <form action="/action_page.php" method="get" id="nameform">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" name="name" placeholder="John Smith"><br><br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                </form>
+                <br>
+                <label for="message">Message</label>
+                <br>
+                <textarea id="message" rows="4" cols="50" form="nameform">
+                    </textarea><br><br>
+                    <button type="submit" class="btn btn-info">Submit</button>
+                </section>
+        </div>
+    </div> 
+<!-- footer  -->
+    <footer class="bg-secondary text-white text-center">
+        <p>Copyright &#169</p>
+    </footer>  
 </body>
 </html>
