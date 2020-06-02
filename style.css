@@ -15,6 +15,10 @@ h1 {
 #profileimage{
   height: 200px; 
 }
+img {
+  height: 200px; 
+}
+
 
 #header { 
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -22,6 +26,7 @@ h1 {
   font-size:30px;
   background-color: #4aaaa5;
 }
+
 @media screen and (max-width: 640px) {
     body {
 
